@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+{% load static tailwind_tags %}
+<head>
+   {% tailwind_css %}
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static '/crash_course/styles.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="relative container mx-auto p-6">
+    <!-- Flex container -->
+    <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <div class="pt-2">
+            <img src="{% static '/crash_course/logo.svg' %}" alt="">
+        </div>
+        <!-- Menu Items -->
+        <div class="hidden md:flex space-x-6">
+            <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+            <a href="#" class="hover:text-darkGrayishBlue">About us</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+</body>
+</html>

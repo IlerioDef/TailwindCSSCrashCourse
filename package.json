@@ -1,0 +1,16 @@
+{
+  "name": "tailwindcsscrashcourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/styles.css -o crash_course/static/crash_course/styles.css",
+    "build-css-watch": "tailwindcss build -i src/styles.css -o crash_course/static/crash_course/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
